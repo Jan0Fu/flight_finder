@@ -1,10 +1,10 @@
 import requests
+from pprint import pprint
 
 SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/23ff215de00c02d57c638f6c122e212d/flightDeals/prices"
 
 
 class DataManager:
-
     def __init__(self):
         self.destination_data = {}
 
